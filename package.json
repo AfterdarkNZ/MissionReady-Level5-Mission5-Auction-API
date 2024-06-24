@@ -1,0 +1,25 @@
+{
+  "name": "auction-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "seed": "node commands/seed.js",
+    "delete": "node commands/delete.js",
+    "deleteOne": "node commands/deleteOne.js",
+    "search": "node routes/search.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "-": "^0.0.1",
+    "axios": "^1.7.2",
+    "commander": "^12.1.0",
+    "express": "^4.19.2",
+    "mongoose": "^8.4.3"
+  },
+  "devDependencies": {},
+  "description": ""
+}
